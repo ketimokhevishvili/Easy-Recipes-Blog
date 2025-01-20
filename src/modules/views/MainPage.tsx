@@ -1,7 +1,9 @@
+import Header from "./Header.tsx";
+
 const MainPage = () => {
     return (
         <>
-            bla
+          <Header />
         </>
     )
 }
