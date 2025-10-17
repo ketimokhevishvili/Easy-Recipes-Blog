@@ -4,7 +4,7 @@ import MainPage from "./modules/views/MainPage.tsx";
 function App() {
 
   return (
-    <div className="max-w-full">
+    <div className="w-screen h-auto main-container">
       <MainPage/>
     </div>
   )

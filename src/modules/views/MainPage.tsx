@@ -1,10 +1,14 @@
 import Header from "./Header.tsx";
+import CoreComponent from "./CoreComponent.tsx";
+import TubButton from "./TubButton.tsx";
 
 const MainPage = () => {
     return (
-        <>
-          <Header />
-        </>
+        <div className="scroll-smooth">
+          <Header/>
+            <CoreComponent/>
+            <TubButton/>
+        </div>
     )
 }
 

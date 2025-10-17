@@ -1,12 +1,15 @@
-import logo from '@/assets/images/logo.png'
+import logo from '@/assets/images/poto.png'
 
 const Header = () => {
     return (
         <>
-            <div className='header-conteiner mt-2'>
+            <div className='header-conteiner'>
                 <div className='flex justify-center items-center'>
                     <img className='header-img' src={logo} alt={'icon'}/>
-                    <h1 className='p-3'> Easy Recipes Blog </h1>
+                </div>
+                <div className='items-center text-center'>
+                    <h1 className='p-3 header-title '> Teaching practice </h1>
+                    <h6>პრაკტიკაში გამოსაყენებელი ამოცანების ერთობლიობა</h6>
                 </div>
             </div>
         </>
